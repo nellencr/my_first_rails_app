@@ -3,7 +3,7 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/nela/Downloads/code_1.40.2-1574694120_amd64.deb" added="2019-12-04T10:45:29Z" modified="2019-12-04T10:45:29Z" visited="2019-12-04T10:45:30.085998Z">
+  <bookmark href="file:///home/nela/Downloads/code_1.40.2-1574694120_amd64.deb" added="2019-12-04T10:45:29Z" modified="2019-12-04T10:45:29Z" visited="2019-12-04T10:45:30Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/vnd.debian.binary-package"/>

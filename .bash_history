@@ -57,3 +57,9 @@ rails db:migrate
 rails server
 rails --version
 sqlite3 --version
+pwd /home/you/odin_on_rails/my_first_rails_app
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin git@github.com:nellencr/my_first_rails_app.git
+git push -u origin master
