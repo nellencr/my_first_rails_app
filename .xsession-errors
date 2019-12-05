@@ -33,43 +33,78 @@ dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu
 dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
 
-(xfce4-session:1071): xfce4-session-WARNING **: 20:44:02.465: xfsm_manager_load_session: Something wrong with /home/nela/.cache/sessions/xfce4-session-nela-VirtualBox:0, Does it exist? Permissions issue?
-** Message: 20:44:02.566: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+(xfce4-session:1073): xfce4-session-WARNING **: 18:30:48.701: xfsm_manager_load_session: Something wrong with /home/nela/.cache/sessions/xfce4-session-nela-VirtualBox:0, Does it exist? Permissions issue?
+** Message: 18:30:48.782: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
 
-(polkit-gnome-authentication-agent-1:1113): GLib-CRITICAL **: 20:44:07.056: g_variant_new_string: assertion 'string != NULL' failed
+(xfsettingsd:1096): xfsettingsd-WARNING **: 18:30:52.413: Unknown mode '800x600 @ 60.0' for output Virtual1, aborting.
 
-(polkit-gnome-authentication-agent-1:1113): polkit-gnome-1-WARNING **: 20:44:07.057: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+(polkit-gnome-authentication-agent-1:1115): GLib-CRITICAL **: 18:30:54.150: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1115): polkit-gnome-1-WARNING **: 18:30:54.150: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 No window manager registered on screen 0. To start the xfdesktop without this check, run with --disable-wm-check.
 
-(xfsettingsd:1094): xfsettingsd-WARNING **: 20:44:09.988: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+(xfsettingsd:1096): xfsettingsd-WARNING **: 18:30:57.067: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
 
-(wrapper-2.0:1246): GLib-GIO-CRITICAL **: 20:44:10.651: g_file_new_for_path: assertion 'path != NULL' failed
+** (wrapper-2.0:1249): WARNING **: 18:30:58.063: No outputs have backlight property
 
-(wrapper-2.0:1246): GLib-GIO-CRITICAL **: 20:44:10.652: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+(wrapper-2.0:1245): GLib-GIO-CRITICAL **: 18:30:58.064: g_file_new_for_path: assertion 'path != NULL' failed
 
-(wrapper-2.0:1246): GLib-GObject-WARNING **: 20:44:10.652: invalid (NULL) pointer instance
+(wrapper-2.0:1245): GLib-GIO-CRITICAL **: 18:30:58.064: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
 
-(wrapper-2.0:1246): GLib-GObject-CRITICAL **: 20:44:10.652: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+(wrapper-2.0:1245): GLib-GObject-WARNING **: 18:30:58.064: invalid (NULL) pointer instance
 
-(wrapper-2.0:1246): Gtk-WARNING **: 20:44:10.652: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+(wrapper-2.0:1245): GLib-GObject-CRITICAL **: 18:30:58.064: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
 
-(wrapper-2.0:1246): Gtk-WARNING **: 20:44:10.724: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+(wrapper-2.0:1245): Gtk-WARNING **: 18:30:58.065: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
 
-** (wrapper-2.0:1249): WARNING **: 20:44:10.846: No outputs have backlight property
+(wrapper-2.0:1245): Gtk-WARNING **: 18:30:58.118: Negative content width -13 (allocation 1, extents 7x7) while allocating gadget (node button, owner GtkToggleButton)
 
-(nm-applet:1117): Gtk-WARNING **: 20:44:10.871: Can't set a parent on widget which has a parent
+(nm-applet:1119): Gtk-WARNING **: 18:30:58.229: Can't set a parent on widget which has a parent
 
-(wrapper-2.0:1250): Gtk-WARNING **: 20:44:10.999: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+(wrapper-2.0:1249): Gtk-WARNING **: 18:30:58.397: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
 
-(wrapper-2.0:1249): Gtk-WARNING **: 20:44:11.068: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+(wrapper-2.0:1250): Gtk-WARNING **: 18:30:58.407: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
 
-(nm-applet:1117): Gdk-CRITICAL **: 20:44:11.565: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
-
-(wrapper-2.0:1243): Gtk-WARNING **: 20:44:15.732: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+(wrapper-2.0:1240): Gtk-WARNING **: 18:31:20.342: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
 /usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
   from gi.repository import AppIndicator3 as girAppIndicator
 ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 
-(xfce4-terminal:1363): Gdk-CRITICAL **: 20:55:23.627: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+(xfwm4:1086): xfwm4-WARNING **: 18:31:49.731: output size (640x480) and logical screen size (1366x663) do not match
+
+(xfwm4:1086): xfwm4-WARNING **: 18:31:53.994: output size (1366x663) and logical screen size (640x480) do not match
+
+(xfce4-terminal:1341): Gdk-CRITICAL **: 19:20:12.833: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-terminal:1694): Gdk-CRITICAL **: 19:28:08.604: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-terminal:1777): Gdk-CRITICAL **: 19:40:11.950: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-terminal:2007): Gdk-CRITICAL **: 20:17:44.092: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-terminal:2155): Gdk-CRITICAL **: 20:30:04.768: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+javaldx: Could not find a Java Runtime Environment!
+Please ensure that a JVM and the package libreoffice-java-common
+is installed.
+If it is already installed then try removing ~/.libreoffice/3/user/config/javasettings_Linux_*.xml
+Warning: failed to read path from javaldx
+
+(xfce4-terminal:2378): Gdk-CRITICAL **: 20:51:34.137: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+Option 'sandbox' is unknown. Ignoring.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+Gtk-Message: 21:05:38.503: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 21:07:29.494: GtkDialog mapped without a transient parent. This is discouraged.
+
+(mousepad:2941): Gtk-WARNING **: 21:09:11.017: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:2941): Gtk-WARNING **: 21:09:11.018: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:2941): Gtk-WARNING **: 21:09:11.018: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:2941): Gtk-WARNING **: 21:09:11.018: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:2941): Gtk-WARNING **: 21:09:11.018: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+Option 'sandbox' is unknown. Ignoring.

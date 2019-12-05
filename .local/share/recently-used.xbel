@@ -13,4 +13,18 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/nela/git_test./README.md" added="2019-12-05T19:09:11Z" modified="2019-12-05T19:09:11Z" visited="2019-12-05T19:09:11Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2019-12-05T19:09:11Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
